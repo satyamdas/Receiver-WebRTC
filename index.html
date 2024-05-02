@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>FxUAV</title>
+<link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+<div class="login-container">
+  <div class="logo" id="FxUAV-logo"></div>
+  <div class="title">5G LIVE</div>
+  <input placeholder="Enter Username" type="text" id="username-input" />
+  <button onclick="joinCall()">Play</button>
+</div>
+<div id="video-call-div">
+  <video muted id="local-video" autoplay></video>
+  <video id="remote-video" autoplay></video>
+</div>
+<script src="./receiver.js"></script>
+</body>
+</html>
